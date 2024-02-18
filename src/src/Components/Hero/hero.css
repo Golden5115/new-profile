@@ -1,0 +1,42 @@
+.name {
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+.frontEnd {
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease;
+  animation-delay: 1s;
+}
+
+@keyframes example {
+  from {
+    left: -100vw;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+.heroimg {
+  position: relative;
+  animation-name: heroimg;
+  animation-duration: 2s;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease;
+}
+
+@keyframes heroimg {
+  from {
+    right: -100vw;
+  }
+  to {
+    right: 0px;
+  }
+}
